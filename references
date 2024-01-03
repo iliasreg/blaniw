@@ -1,0 +1,10 @@
+Clerk:
+    webhooks:
+        https://clerk.com/docs/users/sync-data
+        installing svix package: npm install svix
+
+
+ShadCn/UI:
+
+MongoDB Atlas:
+
