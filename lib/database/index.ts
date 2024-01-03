@@ -15,7 +15,7 @@ export const connectToDb = async () => {
         bufferCommands: false,
     })
 
-    cached.conn = await cached.promimse;
+    cached.conn = await cached.promise;
 
     return cached.conn;
 }
