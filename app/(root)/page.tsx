@@ -20,7 +20,7 @@ export default async function Home() {
         <div className='wrapper grid grid-cols-1 gap-5 md:grid-cols-2 2xl:gap-0'>
           <div className='flex flex-col justify-center gap-8'>
             <h1 className='h1-bold '><span className='main-text'>Aji</span> tblaniw meana !</h1>
-            <p className='p-regular-20 md:p-regular-24 '>Join us in simplifying event planning and elevating every occasion with our innovative hosting app.</p>
+            <p className='p-regular-20 md:p-regular-24 '>Join us in simplifying event planning and elevating every occasion with our innovative hosting application.</p>
             <Button variant={'default'} size="lg" asChild className='main-fill button w-full sm:w-fit main-fill'>
               <Link href="#events">
                 Explore Now
