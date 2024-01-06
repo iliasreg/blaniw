@@ -28,7 +28,7 @@ const Card = ({event, hasOrderLink, hidePrice}: CardProps) => {
         {isEventCreator && !hidePrice && (
             <div className="absolute right-2 top-2 flex flex-col gap-4 rounded-xl bg-white p-3 shadow-sm transition-all">
                 <Link href={`/events/${event._id}/update`}>
-                    <Image src="/assets/icons/edit.svg" alt="edit" width={20} height={20}/>
+                    <Image src="/assets/Icons/edit.svg" alt="edit" width={20} height={20}/>
                 </Link>
                 <DeleteConfirmation eventId={event._id}/>
             </div>
@@ -60,7 +60,7 @@ const Card = ({event, hasOrderLink, hidePrice}: CardProps) => {
         {hasOrderLink && (
             <Link href={`/orders?eventId=${event._id}`} className="flex gap-2">
                 <p className="main-text">Order Details</p>
-                <Image src="/assets/icons/arrow.svg" alt="search" width={10} height={10}/>
+                <Image src="/assets/Icons/arrow.svg" alt="search" width={10} height={10}/>
             </Link>
         )}
 

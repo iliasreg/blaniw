@@ -170,7 +170,7 @@ const EventForm = ({userId, type, event, eventId}: EventFormProps) => {
                         <FormItem className="w-full">
                         <FormControl>
                             <div className="flex-center h-[54px] w-full overflow-hidden rounded-full bg-grey-50 px-4 py-2">
-                                <Image src="/assets/icons/location.png" alt="locationIcon" width={24} height={24}/>
+                                <Image src="/assets/Icons/location.png" alt="locationIcon" width={24} height={24}/>
                                 <Input placeholder="Event location or Online" {...field} className=" bg-grey-50 h-[54px] focus-visible:ring-offset-0 placeholder:text-grey-500 rounded-full p-regular-16 px-4 py-3 border-none focus-visible:ring-transparent"/>
                             </div>
                         </FormControl>
@@ -187,7 +187,7 @@ const EventForm = ({userId, type, event, eventId}: EventFormProps) => {
                         <FormItem className="w-full">
                         <FormControl>
                             <div className="flex-center h-[54px] w-full overflow-hidden rounded-full bg-grey-50 px-4 py-2">
-                                <Image src="/assets/icons/calendar.png" alt="calendarIcon" width={24} height={24} className="filter-grey"/>
+                                <Image src="/assets/Icons/calendar.png" alt="calendarIcon" width={24} height={24} className="filter-grey"/>
                                 <p className="ml-3 whitespace-nowrap text-grey-600">Start Date: </p>
                                 <DatePicker 
                                 selected={field.value} 
@@ -210,7 +210,7 @@ const EventForm = ({userId, type, event, eventId}: EventFormProps) => {
                         <FormItem className="w-full">
                         <FormControl>
                             <div className="flex-center h-[54px] w-full overflow-hidden rounded-full bg-grey-50 px-4 py-2">
-                                <Image src="/assets/icons/calendar.png" alt="calendarIcon" width={24} height={24} className="filter-grey"/>
+                                <Image src="/assets/Icons/calendar.png" alt="calendarIcon" width={24} height={24} className="filter-grey"/>
                                 <p className="ml-3 whitespace-nowrap text-grey-600">End Date: </p>
                                 <DatePicker 
                                 selected={field.value} 
@@ -236,7 +236,7 @@ const EventForm = ({userId, type, event, eventId}: EventFormProps) => {
                         <FormItem className="w-full">
                         <FormControl>
                             <div className="flex-center h-[54px] w-full overflow-hidden rounded-full bg-grey-50 px-4 py-2">
-                                <Image src="/assets/icons/price.png" alt="calendarIcon" width={24} height={24} className="filter-grey"/>
+                                <Image src="/assets/Icons/price.png" alt="calendarIcon" width={24} height={24} className="filter-grey"/>
                                 <Input type="number" placeholder="Price" {...field} className="p-regular-16 border-0 bg-grey-50 outline-offset-0 focus:border-0 focus-visible:ring-0 focus-visible:ring-offset-0"/>
                                 <FormField
                                         control={form.control}
@@ -271,7 +271,7 @@ const EventForm = ({userId, type, event, eventId}: EventFormProps) => {
                     <FormItem className="w-full">
                     <FormControl>
                         <div className="flex-center h-[54px] w-full overflow-hidden rounded-full bg-grey-50 px-4 py-2">
-                            <Image src="/assets/icons/link.png" alt="linkIcon" width={24} height={24}/>
+                            <Image src="/assets/Icons/link.png" alt="linkIcon" width={24} height={24}/>
                             <Input placeholder="URL" {...field} className=" bg-grey-50 h-[54px] focus-visible:ring-offset-0 placeholder:text-grey-500 rounded-full p-regular-16 px-4 py-3 border-none focus-visible:ring-transparent"/>
                         </div>
                     </FormControl>

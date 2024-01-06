@@ -42,7 +42,7 @@ const EventDetails = async ({params: {id}, searchParams}: SearchParamProps) => {
 
                     <div className="flex flex-col gap-5">
                         <div className="flex gap-2 md:gap-3">
-                            <Image src="/assets/icons/calendar.png" alt="calendar" width={32} height={32} className="object-contain"/>
+                            <Image src="/assets/Icons/calendar.png" alt="calendar" width={32} height={32} className="object-contain"/>
                             <div className="p-medium-14 md:p-regular-16 flex flex-wrap items-center">
                                 <p className="pl-1">
                                     {formatDateTime(event.startDateTime).dateOnly} - {' '}
@@ -56,7 +56,7 @@ const EventDetails = async ({params: {id}, searchParams}: SearchParamProps) => {
                         </div>
 
                         <div className="p-regular-20 flex items-center gap-3">
-                            <Image src="/assets/icons/location.png" alt="location.png" width={32} height={32} className="object-contain" />
+                            <Image src="/assets/Icons/location.png" alt="location.png" width={32} height={32} className="object-contain" />
                             <p className="pl-1 p-medium-14 lg:p-regular-16">{event.location}</p>
                         </div>
                     </div>
