@@ -7,7 +7,7 @@ import MobileNav from './MobileNav';
 
 const Header = () => {
   return (
-    <header className='w-full border-b'>
+    <header className='w-full border-b h-20 flex justify-center items-center'>
         <div className='wrapper flex items-center justify-between'>
             <Link href="/" className='w-36'>
                 <Image src="/assets/BlaniwMain.png" width={120} height={18} alt='BlaniwLogo'/>
@@ -25,7 +25,7 @@ const Header = () => {
                     <MobileNav />
                 </SignedIn>
                 <SignedOut>
-                    <Button asChild className='rounded-full' size="lg">
+                    <Button asChild className='button rounded-full px-8 h-11'>
                         <Link href="/sign-in">
                             Login
                         </Link>
